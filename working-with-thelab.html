@@ -9,22 +9,14 @@
         <title>Mockup Page</title>  
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="styles.css">
-        <style>
-            .hero {background-image: url("images/headeroption2.png"); height: 600px;}
-            .big {font-size: 36pt; position: relative; top: 350px; left: 900px;}
-            .homepg-intro {text-align: center; color: #fff; background-color: #14828c;}
-            .what-we-do {padding: 0; margin: 0;}
-            .what-we-do .col-4 {padding: 0;}
-            .what-we-do .col-4 .inner {margin: 10px;}
-        </style>
     </head>
 
-    <body>
+    <body class="d-flex flex-column h-100">
     <main class="flex-shrink-0"> 
 
         <div class="ucsf-banner-nav bg-dark-blue font-white"><!-- UCSF main banner -->
             <div class="container top-header-container">
-               <ul class="menu row">
+                <ul class="menu row">
                     <li class="first col-8"><a href="https://www.ucsf.edu/"><img src="images/logo.png">University of California San Francisco</a></li>
                     <li class="col"><a href="https://www.ucsfhealth.org/">UCSF Health</a></li>
                     <li class="col"><a href="https://www.ucsf.edu/search">Search UCSF</a></li>
@@ -33,6 +25,21 @@
                 </ul>
             </div>
         </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="brand"><span class="brightblue">T</span><span class="purple">He</span>Lab: <span class="brightblue">Torgerson</span> + <span class="purple">Hernandez</span> Lab</p>
+                </div>
+            <div class="col-3">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                        <button class="btn btn-outline-searchbar" type="submit"><img src="images/searchglass.png" class="img-fluid"></button>
+                    </form>
+        </div>
+        </div>
+        </div>
+
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.html">THeLab</a>
@@ -40,7 +47,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="science.html">Science</a>
                         </li>
@@ -63,77 +70,33 @@
                             <a class="nav-link" href="activity.html">Activity</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="working-with-thelab.html">Working with THeLab</a>
+                            <a class="nav-link active" href="working-with-thelab.html" aria-current="page">Working with THeLab</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                 </div>
             </div>
         </nav>
         
-        <div class="container-fluid hero">
-            <!--<p class="big font-white">Evolution x Environment ><br>Genetic Variation +<br>Complex Traits</p>-->
-        </div>
-
-        <div class="container">
-            <p><strong>THeLab studies how genetic variation shapes complex traits across a spectrum of biological systems using population genetics, statistical modeling, and multi-omic data.</strong></p>
-            <h2 class="homepg-intro">What We Do</h2>
-            <div class="row what-we-do">
-                <div class="col-4">
-                    <div class="inner">
-                    <img src="images/evolution.jpg" class="img-fluid">
-                    <h3>Evolution and population genetics</h3>
-                    <p><strong>Complex evolutionary forces shape patterns of genetic variation.</strong></p>
-                    <ul>
-                        <li data-list-item-id="ec15eb857916b6d381585497889e541b2">
-                            <a href="https://www.science.org/doi/full/10.1126/science.1198878">Classic sweeps were rare in recent human evolution</a>
-                        </li>
-                        <li data-list-item-id="e464949142f0201080607618e4a35508f">
-                            <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007387">Background selection × demographic history produce complex patterns of genetic<strong> </strong>variation</a>
-                        </li>
-                    </ul>
-                   </div>
-                </div>
-                <div class="col-4">
-                    <div class="inner">
-                    <img src="images/ancestry.jpg" class="img-fluid">
-                    <h3>Ancestry and population diversity</h3>
-                    <p><strong>Human populations form a continuum shaped by demographic history and admixture.</strong></p>
-                    <ul>
-                        <li data-list-item-id="e3998009038f26965a669330e0d438add">
-                            <a href="https://elifesciences.org/articles/56029">Genomic ancestry in Mexican Americans has shifted rapidly in recent generations</a>
-                        </li>
-                        <li data-list-item-id="e1d46978c5855eba5879f3e5a49547c9c">
-                            <a href="https://www.jacionline.org/article/S0091-6749(18)31274-0/fulltext">Admixture mapping identifies ancestry-associated genetic effects across populations</a>
-                        </li>
-                    </ul>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="inner">
-                    <img src="images/multiomics.jpg" class="img-fluid">
-                    <h3>Multi-omics and complex traits</h3>
-                    <p><strong>Multi-omic data link molecular phenotypes to health, disease, and treatment response.</strong></p>
-                    <ul>
-                        <li data-list-item-id="e71e3ff953231f49d2a0fef33bf4617f4">
-                            <a href="https://www.nature.com/articles/s41588-019-0487-7">Ultrarare variants contribute substantially to the heritability of gene expression</a>
-                        </li>
-                        <li data-list-item-id="ed7b535c4dae4774638028c970af2c01b">
-                            <a href="https://www.mdpi.com/2218-1989/13/9/971">The metabolome reflects treatment response and clinical outcomes in premature infants</a>
-                        </li>
-                    </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
+        <div class="container-fluid maincontent">
+            <div class="container">
+            <h1>Working <em>with</em> THeLab</h1>
+            <p>Lorem ipsum dolor sit amet, ex labore vivendo laboramus has, vel at putant legendos. Quod appareat id eos, noster malorum et mea.</p>
+            <h2>Ownership</h2>
+            <h3>Mutual ownership of the lab. People are given the space and support to take ownership of their work and direction</h3>
+            <p>[Paragraph: broad view of ownership in scientific work]</p>
+            <p><strong>In THeLab:</strong> [Paragraph describing how ownership is implemented in practice]</p>
+            <h2>Working Together</h2>
+            <h3>Science is a collaborative and communicative process</h3>
+            <p>[Paragraph: broad view of how people work together in science]</p>
+            <p><strong>In THeLab:</strong> [Paragraph describing how collaboration, visibility, and interaction are implemented]</p>
+            <h2>Growth</h2>
+            <h3>Growth is an ongoing process of pushing limits and developing as a scientist</h3>
+            <p>[Paragraph: broad view of growth over time, including learning, self-understanding, and development]</p>
+            <p><strong>In THeLab:</strong> [Paragraph describing how growth is supported and enacted in practice]</p>
+        </div><!-- end container -->
 
     </main>
 

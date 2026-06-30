@@ -1,0 +1,56 @@
+/* universal */
+body {font-family: Helvetica Neue Light, Arial Regular, sans-serif; background-color: #f2f3f4;}
+.brand {font-size: 1.5rem;}
+.purple {color: #6c62d0;}
+.brightblue {color: #006be9;}
+.bg-dark-blue {background-color: #052049;}
+.bg-med-blue {background-color: #0f388a;}
+.font-white {color: #ffffff;}
+.header-give {background-color: #006be9; text-align: center;}
+.header-give:hover {background-color: #0f388a;}
+.menu a {text-decoration: none; color: #fff; font-size: 0.8rem;}
+h1 {font-size: 2rem; color: #006be9; padding-bottom: 0.5rem;}
+h2 {font-size: 1.75rem; color: #006be9; padding-bottom: 0.5rem;}
+h3 {font-size: 1.5rem; color: #0f388a;}
+h4 {font-size: 1.25rem;color: #0f388a;}
+
+/* top banner and nav */
+.ucsf-banner-nav {height: 40px; overflow: hidden; margin-bottom: 20px;}
+.top-header-container {margin: 0, auto; padding: 0, 15px; max-width: 1320px;}
+.ucsf-banner-nav .top-header-container ul.menu {padding: 0; margin: 0; list-style-type: none;}
+.menu {display: grid; grid-template-columns: 1fr repeat(4, auto);}
+.menu li {padding-top: 0.5rem; height: 40px;}
+.menu li.first {padding-left: 0;}
+.navbar-collapse {float: right;}
+.navbar {font-weight: 500;}
+.btn-outline-searchbar {color: 000; background-color: #fff;}
+form {border-width: 1px; background-color: #fff; border-color: #b4b9bf; border-style: solid; border-radius: 10px;}
+.form-control {border: 0; border-radius: 10px;}
+.btn-outline-searchbar {padding: 0; margin-right: 1rem;}
+.maincontent {margin-bottom: 0;}
+.maincontent .container {background-color: #fff; border-radius: 20px; border: 1px solid #b4b9bf; padding: 20px;}
+.imgmargin {margin-bottom: 30px;}
+
+/* filter colors */
+.red {color: #e61048;}
+.orange {color: #fa6e1e;}
+.yellow {color: #feb80a;}
+.green {color: #32a03e;}
+.purple {color: #443e8c;}
+
+/* footer */
+.copyfoot {margin-bottom: 0; padding: 0.5rem;}
+footer {padding-top: 2rem;}
+.navfooter {padding-bottom: 2rem;}
+.footernav {text-align: center; margin-top: 2rem;}
+.footernav a {color: #fff; text-decoration: none;}
+.footernav a:hover {text-decoration: underline;}
+.footerinfo {text-align: center;}
+.copy {font-size: 0.8rem;}
+
+/* sidebars */
+.sidebar {position: sticky;  top: 0; font-weight: bold;}
+.sidebar ul {display: grid; list-style: none; margin: 0; padding: 0;}
+.sidebar ul a {box-shadow: -2px 0 0 #c3c7cb; color: inherit; display: inline-block; margin-left: 2px; padding: .25em .5em; text-decoration: none;}
+[aria-current=true]:is(.sidebar a) {background-color: #ecf4fe; box-shadow: -2px 0 0 #0a5dbd;}
+.maincontent {padding-bottom: 20px; margin-bottom: 0; margin-top: 2rem;}
