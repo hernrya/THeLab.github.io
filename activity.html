@@ -9,6 +9,7 @@
         <title>Mockup Page</title>  
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text.css" href="filter.css">
     </head>
 
     <body class="d-flex flex-column h-100">
@@ -85,7 +86,15 @@
             <h1>Activity</h1> 
             [image here]
             <h2>You Belong Here!</h2>
-            <p>All ● Research ▲ Events ■ Outreach ◆ Awards ✦ Teaching ⬟ Additional Areas</p>
+            <div id="myBtnContainer">
+                <button class="btn font-white allbg" onclick="filterSelection('all')">All</button>
+                <button class="btn font-white redbg" onclick="filterSelection('research')">● Research</button>
+                <button class="btn font-white orangebg" onclick="filterSelection('events')">▲ Events</button>
+                <button class="btn font-white yellowbg" onclick="filterSelection('outreach')">■ Outreach</button>
+                <button class="btn font-white greenbg" onclick="filterSelection('awards')">◆ Awards</button>
+                <button class="btn font-white brightbluebg" onclick="filterSelection('teaching')">✦ Teaching</button>
+                <button class="btn font-white purplebg" onclick="filterSelection('additional')">⬟ Additional Areas</button>
+            </div>
             <p>Full-width title / description of activity</p>
             <div class="row">
                 <div class="col-6">

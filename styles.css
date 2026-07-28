@@ -33,10 +33,18 @@ form {border-width: 1px; background-color: #fff; border-color: #b4b9bf; border-s
 
 /* filter colors */
 .red {color: #e61048;}
-.orange {color: #fa6e1e;}
-.yellow {color: #feb80a;}
-.green {color: #32a03e;}
+.orange {color: #a54813;}
+.yellow {color: #996d01;}
+.green {color: #007242;}
 .purple {color: #443e8c;}
+.redbg {background-color: #e61048;}
+.orangebg {background-color: #a54813;}
+.yellowbg {background-color: #996d01;}
+.greenbg {background-color: #007242;}
+.brightbluebg {background-color: #006be9;}
+.purplebg {background-color: #443e8c;}
+.allbg {background-color: #052049;}
+.bigicons {font-size: 2rem;}
 
 /* footer */
 .copyfoot {margin-bottom: 0; padding: 0.5rem;}

@@ -9,6 +9,7 @@
         <title>Mockup Page</title>  
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text.css" href="filter.css">
         <style>
             .paper-title {color: #006be9; font-size: 1.25rem;}
         </style>
@@ -86,7 +87,15 @@
         <div class="container-fluid maincontent">
             <div class="container">
             <h1>Papers</h1> 
-            <p>All | <span class="red">● Population Genetics</span> | <span class="orange">▲ Ancestry</span> | <span class="yellow">■ Complex Traits</span> | <span class="green">◆ Multi-omics</span> | <span class="brightblue">✦ SF Parrots</span> | <span class="purple">⬟ Additional Areas</span></p>
+            <div id="myBtnContainer">
+                <button class="btn font-white allbg" onclick="filterSelection('all')">All</button>
+                <button class="btn font-white redbg" onclick="filterSelection('popgen')">● Population Genetics</button>
+                <button class="btn font-white orangebg" onclick="filterSelection('ancestry')">▲ Ancestry</button>
+                <button class="btn font-white yellowbg" onclick="filterSelection('comptraits')">■ Complex Traits</button>
+                <button class="btn font-white greenbg" onclick="filterSelection('multi')">◆ Multi-omics</button>
+                <button class="btn font-white brightbluebg" onclick="filterSelection('parrots')">✦ SF Parrots</button>
+                <button class="btn font-white purplebg" onclick="filterSelection('additional')">⬟ Additional Areas</button>
+            </div>
             <hr>
             <h2>2026</h2>
             <p class="paper-title">Use of Paracervical Blocks for Patients Who Undergo Intrauterine Device Insertion</p>
