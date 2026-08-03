@@ -1,6 +1,6 @@
 /* universal */
-body {font-family: Atkinson Hyperlegible Next, Atkinson Hyperlegible, Helvetica Neue Light, Arial Regular, sans-serif; background-color: #f2f3f4;}
-.brand {font-size: 1.5rem;}
+body {font-family: Atkinson Hyperlegible Next, Arial Regular, sans-serif; background-color: #f2f3f4;}
+.brand {font-family: Helvetica Neue Light, Arial Regular, sans-serif; font-size: 1.5rem;}
 .purple {color: #6c62d0;}
 .brightblue {color: #006be9;}
 .bg-dark-blue {background-color: #052049;}
@@ -22,7 +22,9 @@ h4 {font-size: 1.25rem;color: #0f388a;}
 .menu li {padding-top: 0.5rem; height: 40px;}
 .menu li.first {padding-left: 0;}
 .navbar-collapse {float: right;}
-.navbar {font-weight: 500;}
+.navbar {font-family: Helvetica Neue Light, Arial Regular, sans-serif; font-weight: 500;}
+.nav-link {color: #000;}
+.nav-item .active {font-weight: bold;}
 .btn-outline-searchbar {color: 000; background-color: #fff;}
 form {border-width: 1px; background-color: #fff; border-color: #b4b9bf; border-style: solid; border-radius: 10px;}
 .form-control {border: 0; border-radius: 10px;}
@@ -36,7 +38,6 @@ form {border-width: 1px; background-color: #fff; border-color: #b4b9bf; border-s
 .orange {color: #a54813;}
 .yellow {color: #996d01;}
 .green {color: #007242;}
-/* .purple {color: #443e8c;} */
 .redbg {background-color: #e61048;}
 .orangebg {background-color: #a54813;}
 .yellowbg {background-color: #996d01;}
