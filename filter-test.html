@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>Filterable Table</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="filter.css">
+</head>
+
+<body class="d-flex flex-column h-100">
+<!-- Control buttons -->
+<div id="myBtnContainer">
+  <button class="btn font-white allbg" onclick="filterSelection('all')">All</button>
+  <button class="btn font-white redbg" onclick="filterSelection('grants')">● PI Grants</button>
+  <button class="btn font-white orangebg" onclick="filterSelection('fellowships')">▲ THe Lab Fellowships</button>
+
+
+  <button class="btn font-white yellowbg" onclick="filterSelection('outreach')">■ Outreach</button>
+  <button class="btn font-white greenbg" onclick="filterSelection('awards')">◆ Awards</button>
+  <button class="btn font-white brightbluebg" onclick="filterSelection('teaching')">✦ Teaching</button>
+  <button class="btn font-white purplebg" onclick="filterSelection('additional')">⬟ Additional Areas</button>
+</div>
+
+<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+<div class="container">
+  <div class="filterDiv popgen">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur facilisis porta purus, non viverra quam efficitur sit amet. Nulla sed orci ligula. Maecenas laoreet luctus posuere.<br><span class="red bigicons">●</span></div>
+  <div class="filterDiv popgen parrots">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur facilisis porta purus, non viverra quam efficitur sit amet. Nulla sed orci ligula. Maecenas laoreet luctus posuere.<br><span class="red bigicons">●</span> <span class="brightblue bigicons">✦</span></div>
+  <div class="filterDiv ancestry">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur facilisis porta purus, non viverra quam efficitur sit amet. Nulla sed orci ligula. Maecenas laoreet luctus posuere.<br><span class="orange bigicons">▲</span></div>
+  <div class="filterDiv ancestry additional">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur facilisis porta purus, non viverra quam efficitur sit amet. Nulla sed orci ligula. Maecenas laoreet luctus posuere.<br><span class="orange bigicons">▲</span> <span class="purple bigicons">⬟</span></div>
+  <div class="filterDiv comptraits parrots">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur facilisis porta purus, non viverra quam efficitur sit amet. Nulla sed orci ligula. Maecenas laoreet luctus posuere.<br><span class="yellow bigicons">■</span> <span class="brightblue bigicons">✦</span></div>
+  <div class="filterDiv popgen multi">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur facilisis porta purus, non viverra quam efficitur sit amet. Nulla sed orci ligula. Maecenas laoreet luctus posuere.<br><span class="red bigicons">●</span> <span class="green bigicons">◆</span></div>
+  <div class="filterDiv multi">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur facilisis porta purus, non viverra quam efficitur sit amet. Nulla sed orci ligula. Maecenas laoreet luctus posuere.<br><span class="green bigicons">◆</span></div>
+  <div class="filterDiv multi parrots additional">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur facilisis porta purus, non viverra quam efficitur sit amet. Nulla sed orci ligula. Maecenas laoreet luctus posuere.<br><span class="green bigicons">◆</span> <span class="brightblue bigicons">✦</span> <span class="purple bigicons">⬟</span></div>
+  <div class="filterDiv popgen">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur facilisis porta purus, non viverra quam efficitur sit amet. Nulla sed orci ligula. Maecenas laoreet luctus posuere.<br><span class="red bigicons">●</span></div>
+  <div class="filterDiv ancestry multi">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur facilisis porta purus, non viverra quam efficitur sit amet. Nulla sed orci ligula. Maecenas laoreet luctus posuere.<br><span class="orange bigicons">▲</span> <span class="green bigicons">◆</span></div>
+  <div class="filterDiv comptraits">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur facilisis porta purus, non viverra quam efficitur sit amet. Nulla sed orci ligula. Maecenas laoreet luctus posuere.<br><span class="yellow bigicons">■</span></div>
+  <div class="filterDiv comptraits additional">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur facilisis porta purus, non viverra quam efficitur sit amet. Nulla sed orci ligula. Maecenas laoreet luctus posuere.<br><span class="yellow bigicons">■</span> <span class="purple bigicons">⬟</span></div>
+  <div class="filterDiv popgen multi">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur facilisis porta purus, non viverra quam efficitur sit amet. Nulla sed orci ligula. Maecenas laoreet luctus posuere.<br><span class="red bigicons">●</span> <span class="green bigicons">◆</span></div>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>

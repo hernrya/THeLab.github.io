@@ -63,3 +63,15 @@ footer {padding-top: 2rem;}
 .sidebar ul a {box-shadow: -2px 0 0 #c3c7cb; color: inherit; display: inline-block; margin-left: 2px; padding: .25em .5em; text-decoration: none;}
 [aria-current=true]:is(.sidebar a) {background-color: #ecf4fe; box-shadow: -2px 0 0 #0a5dbd;}
 .maincontent {padding-bottom: 20px; margin-bottom: 0; margin-top: 2rem;}
+
+.paper-title {color: #006be9; font-size: 1.25rem;}
+.visually-hidden {
+    position: absolute;
+    top: auto;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE 6/7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+}
