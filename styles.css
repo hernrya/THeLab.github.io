@@ -32,6 +32,17 @@ form {border-width: 1px; background-color: #fff; border-color: #b4b9bf; border-s
 .maincontent {margin-bottom: 0;}
 .maincontent .container {background-color: #fff; border-radius: 20px; border: 1px solid #b4b9bf; padding: 20px;}
 .imgmargin {margin-bottom: 30px;}
+.homepagecontent {padding-bottom: 20px;}
+
+/* homepage */
+.hero {background-image: url("images/headeroption3.png"); height: 497px; margin-bottom: 2rem;}
+.big {font-size: 36pt; position: relative; top: 350px; left: 900px;}
+.homepg-intro {text-align: center; color: #fff; background-color: #14828c; margin: 0; padding: 0;}
+.what-we-do {padding: 0; margin: 0;}
+.what-we-do .col-4 {padding: 0;}
+.what-we-do .col-4 .inner {margin: 0;} /* 10px */
+.what-we-do .col-4 .inner-content {margin: 10px 20px 0 20px;}
+
 
 /* filter colors */
 .red {color: #e61048;}
