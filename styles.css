@@ -58,6 +58,7 @@ footer {padding-top: 2rem;}
 .copy {font-size: 0.8rem;}
 
 /* sidebars */
+.colorbar {position: sticky; top: 0;}
 .sidebar {position: sticky;  top: 0; font-weight: bold;}
 .sidebar ul {display: grid; list-style: none; margin: 0; padding: 0;}
 .sidebar ul a {box-shadow: -2px 0 0 #c3c7cb; color: inherit; display: inline-block; margin-left: 2px; padding: .25em .5em; text-decoration: none;}
